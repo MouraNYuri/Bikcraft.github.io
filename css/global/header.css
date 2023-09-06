@@ -1,13 +1,15 @@
+.header-bg {
+    background-color: var(--cor-base-12);
+}
+
 .header {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between; 
     align-items: center;
-    box-sizing: border-box;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header-menu {
@@ -17,10 +19,8 @@
 }
 
 .header-menu a {
-    color: #fff;
     display: inline-block;
     padding: 16px 0px;
-    font-size: 1.125rem;
     position: relative;
 }
 
@@ -29,7 +29,7 @@
     display: block;
     height: 2px;
     width: 0%;
-    background-color: #fff;
+    background: var(--cor-base-0);
     margin-top: 4px;
     transition: 0.3s;
     position: absolute;
@@ -51,7 +51,7 @@
         border-radius: 4px;
     }
     .header-menu a:hover {
-        background-color: #2e2e2e;
+        background: var(--cor-base-10);
     }
 }
 

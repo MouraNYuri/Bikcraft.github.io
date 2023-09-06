@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding-bottom: 600px;
+}
+
+h1, h2, h3, ul, p{
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+[src$=".jpg"] {
+    border-radius: 4px;
+}
