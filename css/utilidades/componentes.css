@@ -16,10 +16,20 @@
     text-transform: uppercase;
     color: var(--cor-primaria-5);
     font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
 }
 
 .btn:hover { 
     background: linear-gradient(#FFB60D, #E59317);
+}
+
+.btn.secundario {
+    background: var(--cor-base-10);
+    color: var(--cor-base-2);
+}
+
+.btn.secundario:hover {
+    background: var(--cor-base-9);
 }
 
 .link {
