@@ -2,7 +2,13 @@ body {
     margin: 0px;
 }
 
-h1, h2, h3, ul, p, blockquote{
+h1, 
+h2, 
+h3, 
+ul, 
+p, 
+blockquote, 
+dd{
     margin: 0px;
 }
 
