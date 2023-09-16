@@ -71,18 +71,20 @@
 }
 
 .titulo-bg {
-    padding: 60px 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: var(--cor-base-11);
 }
-.titulo-container p {
+.titulo p {
     margin-bottom: 4px;
 }
 
 @media(max-width: 800px) {
-    .titulo {
-        padding: 40px 0px;
+    .titulo-bg {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
-    .titulo-container p {
+    .titulo p {
         font-size: 1rem;
         text-transform: lowercase;
         font-weight: 400;
