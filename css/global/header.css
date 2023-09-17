@@ -5,7 +5,7 @@
 .header {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
     justify-content: space-between; 
     align-items: center;
     padding-top: 20px;
@@ -60,6 +60,7 @@
         justify-content: center;
     }
     .header-menu {
+        justify-content: center;
         gap: 12px;
     }
     .header-menu a {
