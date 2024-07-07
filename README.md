@@ -1,1 +1,1 @@
-Acesse por aqui: https://silver-bubblegum-5792ae.netlify.app
+Acesse por aqui: https://bikcraft-projeto-01.netlify.app
